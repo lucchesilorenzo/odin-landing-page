@@ -78,7 +78,7 @@ a {
   border-radius: 13px;
   padding: 8px 30px;
   color: white;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 18px;
 }
 
@@ -127,7 +127,7 @@ a {
 
 .third-section {
   background-color: #E5E7EB;
-  height: 500px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,7 +139,7 @@ a {
   color: #1F2937;
 }
 
-.quote-wrapper {
+.testimonial {
   width: 47%;
 }
 
@@ -149,4 +149,39 @@ a {
   text-align: right;
   font-weight: bold;
   margin-right: 50px;
+}
+
+.fourth-section {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  background-color: #3882F6;
+  padding: 50px 130px;
+  border-radius: 10px;
+  display: flex;
+  gap: 200px;
+}
+
+.call-to-action-primary {
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.call-to-action-info {
+  color: #F9FAF8;
+}
+
+.fourth-section button {
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  border-radius: 13px;
+  padding: 8px 30px;
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 18px;
 }
