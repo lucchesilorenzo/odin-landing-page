@@ -7,7 +7,6 @@
 body {
   margin: 0;
   min-height: 100vh;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
 }
 
@@ -38,6 +37,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 16px;
+  margin: 0 60px;
 }
 
 .header-logo {
@@ -122,4 +123,30 @@ a {
 .caption {
   text-align: center;
   color: rgb(90, 89, 89);
+}
+
+.third-section {
+  background-color: #E5E7EB;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-wrapper {
+  width: 47%;
+}
+
+.quote-author {
+  font-size: 30px;
+  color: #1F2937;
+  text-align: right;
+  font-weight: bold;
+  margin-right: 50px;
 }
