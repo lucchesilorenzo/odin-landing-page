@@ -10,11 +10,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.first-section {
-  background-color: #1F2937;
-  height: 500px;
-}
-
 .hero-description, a {
   font-size: 18px;
   color: #E5E7EB;
@@ -30,25 +25,28 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 16px;
-  margin-bottom: 20px;
+  background-color: #1F2937;
 }
 
-.hero {
+.section-one {
+  background-color: #1F2937;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  padding: 16px;
-  margin: 0 60px;
+  gap: 30px;
+  height: 500px;
 }
 
 .header-logo {
   font-size: 24px;
   font-weight: 900;
+  height: 50px;
+  width: 50px;
 }
 
-.hero img {
+.section-one img {
   height: auto;
-  width: 500px;
+  width: 30%;
 }
 
 ul {
@@ -68,29 +66,33 @@ a {
   font-weight: 900;
 }
 
-.hero-info {
-  width: 450px;
+.hero {
+  width: 500px;
 }
 
-.hero-info button {
+button {
   background-color: #3882F6;
-  border: none;
   border-radius: 13px;
   padding: 8px 30px;
-  color: white;
+  color: #F9FAF8;
   font-weight: bold;
   font-size: 18px;
+  cursor: pointer;
 }
 
-.hero-info div {
-  margin-bottom: 10px;
+.hero button {
+  border: none;
 }
 
-.second-section {
+.hero div {
+  margin-bottom: 20px;
+}
+
+.section-two {
   height: 500px;
 }
 
-.info-header {
+.info-heading {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
@@ -103,6 +105,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style-type: none;
   gap: 50px;
   padding: 0;
   margin: 0;
@@ -111,13 +114,13 @@ a {
 .frame {
   border: 4px solid #3882F6;
   border-radius: 15px;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   margin-bottom: 10px;
 }
 
 .frame-wrapper li {
-  width: 150px;
+  width: 200px;
 }
 
 .caption {
@@ -125,7 +128,7 @@ a {
   color: rgb(90, 89, 89);
 }
 
-.third-section {
+.section-three {
   background-color: #E5E7EB;
   height: 400px;
   display: flex;
@@ -135,30 +138,30 @@ a {
 
 .quote-text {
   font-size: 36px;
+  font-weight: 100;
   font-style: italic;
   color: #1F2937;
 }
 
-.testimonial {
+.quote {
   width: 47%;
 }
 
 .quote-author {
-  font-size: 30px;
+  font-size: 25px;
   color: #1F2937;
   text-align: right;
-  font-weight: bold;
-  margin-right: 50px;
+  font-style: italic;
 }
 
-.fourth-section {
+.section-four {
   height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.product {
+.call-to-action {
   background-color: #3882F6;
   padding: 50px 130px;
   border-radius: 10px;
@@ -172,18 +175,12 @@ a {
   color: #F9FAF8;
 }
 
-.call-to-action-info {
+.call-to-action-secondary {
   color: #F9FAF8;
 }
 
-.fourth-section button {
-  background-color: #3882F6;
+.section-four button {
   border: 2px solid #F9FAF8;
-  border-radius: 13px;
-  padding: 8px 30px;
-  color: #F9FAF8;
-  font-weight: bold;
-  font-size: 18px;
 }
 
 .footer {
